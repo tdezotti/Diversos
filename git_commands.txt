@@ -12,8 +12,8 @@ git add file.ext
 git add --all
 git commit -m "message"
 git diff (diferença entre working directory e staging area)
-get diff --staged (diferença entre staging area e repository)
-get reset --hard
+git diff --staged (diferença entre staging area e repository)
+git reset --hard
 git checkout master
 git branch (lista todos os branchs)
 git branch branch_name
