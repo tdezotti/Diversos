@@ -1,0 +1,32 @@
+commands:
+
+git log
+git log --stat
+git diff id1 id2
+git --version
+git clone https://github.com/udacity/asteroids.git
+git checkout id
+git init
+git status
+git add file.ext
+git add --all
+git commit -m "message"
+git diff (diferença entre working directory e staging area)
+get diff --staged (diferença entre staging area e repository)
+get reset --hard
+git checkout master
+git branch (lista todos os branchs)
+git branch branch_name
+git log --graph --oneline
+git checkout -b new_branch_name (git branch new_branch_name + git checkout new_branch_name)
+git merge master coins
+git show ID (mostra as mundanças feitas por um commit específico, em comparação com o commit no qual ele foi gerado)
+git branch -d branch_name
+git log -n 1 (mostra apenas um commit)
+git remote
+git remote add remote_name URL
+git remote -v
+git push origin master
+git pull origin master ( = git fetch origin + git merge master origin/master)
+git fetch (atualiza os arquivos atuais com o do repositório, mantendo mudanças locais)
+git stash -u (apaga os arquivos modificados que não se quer adicionar)
