@@ -6,13 +6,13 @@ git diff id1 id2
 git --version
 git clone https://github.com/udacity/asteroids.git
 git checkout id
-git init
+git init (inicializa o diret√≥rio)
 git status
 git add file.ext
 git add --all
 git commit -m "message"
-git diff (diferenÁa entre working directory e staging area)
-get diff --staged (diferenÁa entre staging area e repository)
+git diff (diferen√ßa entre working directory e staging area)
+get diff --staged (diferen√ßa entre staging area e repository)
 get reset --hard
 git checkout master
 git branch (lista todos os branchs)
@@ -20,7 +20,7 @@ git branch branch_name
 git log --graph --oneline
 git checkout -b new_branch_name (git branch new_branch_name + git checkout new_branch_name)
 git merge master coins
-git show ID (mostra as mundanÁas feitas por um commit especÌfico, em comparaÁ„o com o commit no qual ele foi gerado)
+git show ID (mostra as mundan√ßas feitas por um commit espec√≠fico, em compara√ß√£o com o commit no qual ele foi gerado)
 git branch -d branch_name
 git log -n 1 (mostra apenas um commit)
 git remote
@@ -28,5 +28,5 @@ git remote add remote_name URL
 git remote -v
 git push origin master
 git pull origin master ( = git fetch origin + git merge master origin/master)
-git fetch (atualiza os arquivos atuais com o do repositÛrio, mantendo mudanÁas locais)
-git stash -u (apaga os arquivos modificados que n„o se quer adicionar)
+git fetch (atualiza os arquivos atuais com o do reposit√≥rio, mantendo mudan√ßas locais)
+git stash -u (apaga os arquivos modificados que n√£o se quer adicionar)
