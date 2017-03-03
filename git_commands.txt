@@ -30,4 +30,3 @@ git push origin master
 git pull origin master ( = git fetch origin + git merge master origin/master)
 git fetch (atualiza os arquivos atuais com o do repositório, mantendo mudanças locais)
 git stash -u (apaga os arquivos modificados que não se quer adicionar)
-test
